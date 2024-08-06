@@ -4,8 +4,7 @@
   "main": "index.js",
   "scripts": {
     
-    "build": "npm install",
-    "start": "node index.js"
+    "build": "netlify deploy --prod"
   },
   "author": "Muneeb",
   "license": "ISC",
