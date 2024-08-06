@@ -3,9 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    
-    "build": "netlify deploy --prod",
-    "start": "node index.js"
+    "start": "node index.js",
+    "dev": "nodemon index.js"  // Optional for local development
   },
   "author": "Muneeb",
   "license": "ISC",
@@ -14,10 +13,6 @@
     "cors": "^2.8.5",
     "dotenv": "^16.4.5",
     "express": "^4.19.2",
-    "nodemon": "^3.1.4",
-    "stripe": "^16.4.0",
-    "netlify-cli": "^12.7.2",
-    "netlify-lambda": "^2.0.15",
-    "serverless-http": "^3.2.0"
+    "stripe": "^16.4.0"
   }
 }
